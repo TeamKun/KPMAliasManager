@@ -1,0 +1,3 @@
+PyGitHub>=1.57
+GitPython>=3.1.30
+ijson~=3.2.0.post0

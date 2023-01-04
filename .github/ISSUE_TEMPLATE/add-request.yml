@@ -1,0 +1,20 @@
+name: エイリアス追加リクエスト
+description: エイリアスを作成したい場合はこちら
+title: "【エイリアス】エイリアス作成リクエスト"
+labels: ["Type: Alias request", "Status: Pending"]
+assignees: ["PeyaPeyaPeyang"]
+body:
+  - type: input
+    id: alias_name
+    attributes:
+      label: "エイリアスの名前"
+      description: "既存のエイリアスが存在しない事を確認してください！"
+    validations:
+      required: true
+  - type: input
+    id: query
+    attributes:
+      label: "クエリ"
+      description: "エイリアスを割り当てるクエリを書いてください。"
+    validations:
+      required: true

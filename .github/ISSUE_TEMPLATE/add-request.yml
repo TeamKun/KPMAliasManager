@@ -1,8 +1,8 @@
 name: エイリアス追加リクエスト
 description: エイリアスを作成したい場合はこちら
 title: "【エイリアス】エイリアス作成リクエスト"
-labels: ["Type: Alias request", "Status: Pending"]
-assignees: ["PeyaPeyaPeyang"]
+labels: ["Status: Pending"]
+assignees: [""]
 body:
   - type: input
     id: alias_name

@@ -3,8 +3,8 @@ import os
 ISSUE_NUMBER = int(os.getenv("ISSUE_NUMBER"))
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-ORG_NAME = "PeyaPeyaPeyang"
-REPO_NAME = "KPMAliasManagerTest"
+ORG_NAME = ""
+REPO_NAME = ""
 PERMISSION_LEVEL = "read"
 CHECK_USER_IN_ORG = True
 
